@@ -21,7 +21,7 @@ import (
 	"os"
 
 	"github.com/elastic/beats/filebeat/cmd"
-	_ "github.com/thefire/beats-output-http"
+	_ "github.com/mbrancato/beats-output-http"
 )
 
 // The basic model of execution:

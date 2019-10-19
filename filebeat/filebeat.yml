@@ -149,6 +149,8 @@ output.http:
   hosts: ["localhost:8000"]
   protocol: "http"
   path: "api"
+  username: "user"
+  password: "password"
 
 #-------------------------- Elasticsearch output ------------------------------
 # output.elasticsearch:
